@@ -1,0 +1,25 @@
+* {
+  padding:5px;
+  margin: 5px;}
+.container-grid{
+  display: grid;
+  gap:10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
+  grid-template-area: 
+    "header header header"
+    "box1 box2 box3"
+    "box4 box5 box3";
+}
+.header{
+  grid-area:header;}
+.box1{
+  grid-area:box1;}
+.box2{
+  grid-area:box2;}
+.box3{
+  grid-area:box3;}
+.box4{
+  grid-area:box4;}
+.box5{
+  grid-area:box5;}
